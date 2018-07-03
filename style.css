@@ -1,0 +1,238 @@
+body{
+	background:#8C43FF;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container
+{
+     text-align: center;
+}
+#inside
+{
+     display: inline-block;
+  
+}
+
+.outer
+{
+     padding: 30px;
+     text-align: center;
+}
+.inner
+{
+     display: inline-block;
+     padding: 50px;
+}
+
+
+#timerContents{
+    border: 5px solid white;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    line-height: 300px;
+    margin: 0 auto;
+}
+
+.header{
+	width:100%;
+	height:100%;
+	color:white;
+	padding-top:30px;
+	font-size:50px;
+	text-align:center;
+	padding-right:40px;
+}
+
+.selectedtime{
+    margin-left: 220px;
+    font-size: 20px;
+    border: 5px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.selectedtime:focus{
+	outline:none;
+}
+
+.wrapper{
+	width:100%;
+}
+
+.startbutton{
+	width:10%;
+	margin:0 auto;
+}
+
+.buttons{
+	width:15%;
+	margin:0 auto;
+    padding-top:20px;
+    padding-left:40px;
+}
+
+#wrapper{
+	width:100%;
+}
+
+#github{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#footer{
+	text-align:center;
+	color:white;
+	padding-top:10px;
+}
+
+#play:hover, #pause:hover, #refresh:hover, #github:hover{
+	fill:#808080;
+}
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) {
+
+.buttons{
+	width:50%;
+}
+
+.inner{
+	width:85%;
+}
+
+
+}
+
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 812px)
+and (-webkit-pixel-ratio : 3) {
+
+.buttons{
+	width:50%;
+}
+
+.inner{
+	width:85%;
+}
+
+
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  {
+
+.inner{
+	width:45%;
+}
+
+.buttons{
+	width:35%;
+}
+
+#github{
+	padding-left:20px;
+}
+
+#footer{
+	text-align:center;
+}
+
+
+}
+
+
+@media only screen 
+  and (min-width: 834px) 
+  and (max-width: 1112px)
+  and (-webkit-min-pixel-ratio: 2) {
+
+.buttons{
+	width:21%;
+}
+
+.inner{
+	width:30%;
+}
+  
+ #footer{
+  		display:none;
+  	}
+
+}
+
+
+
+
+
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-pixel-ratio: 3){
+	.header{
+		margin-left:20px;
+	}
+	
+	.inner{
+		width:75%;
+	}
+
+	.buttons{
+		width:100%;
+		padding-left:100px;
+	}
+
+	#github{
+		padding-left:15px;
+	}
+
+	#footer{
+		padding-left:40px;
+	}
+}
+
+
+@media screen and (device-aspect-ratio: 40/71) {
+
+	.inner{
+		width:100%;
+	}
+
+	.buttons{
+		width:100%;
+	}
+}
+
+@media only screen 
+and (min-width : 298px) 
+and (max-width : 330px)  {
+
+#timerContents {
+
+    font-size: 50px;
+
+}
+
+
+}
+
+
+@media only screen 
+and (min-width : 330px) 
+and (max-width : 372px)  {
+
+#timerContents {
+
+    font-size: 60px;
+
+}
+
+
+}
